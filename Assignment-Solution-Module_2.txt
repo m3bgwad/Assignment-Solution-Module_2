@@ -1,0 +1,340 @@
+<html>
+  <head>
+    <title>Assignment Solution Module 2</title>
+    <style>
+    @media (min-width: 600px) and (max-width: 850px)
+    {
+        div.s {
+
+    border: 1px solid black;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 350px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    width: 25%;
+    font-size: 25px;
+    /*font-family: Comic Sans MS;*/
+}
+div.ss {
+    border: 1px solid black;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -205px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 600px;
+    width: 25%;
+    font-size: 25px;
+    /*font-family: Comic Sans MS;*/
+}
+div.sss {
+    border: 1px solid black;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -205px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 600px;
+    width: 25%;
+    font-size: 25px;
+    /*font-family: Comic Sans MS;*/
+}
+    div.c {
+
+    border: 1px solid black;
+    background-color: #d59898;
+    width: 7%;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -208px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 404px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+div.cc {
+
+    border: 1px solid black;
+    background-color: #c14543;
+    width: 7%;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -39px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 904px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+div.ccc {
+
+    border: 1px solid black;
+    background-color: #e5d198;
+    width: 7%;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 1404px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+    }
+      div.menu {
+        font-family: Comic Sans MS;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 150px;
+        margin-right: 0px;
+        margin-bottom: -150px;
+        margin-left: 0px;
+      }
+      div.m {
+        text-align: center;
+        font-size: 20px;
+        margin-top: -425px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        border: 1px solid black;
+        background-color: #999999;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 80px;
+        padding-left: 10px;
+        /*font-family: Comic Sans MS;*/
+      }
+      div.mm {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 635px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        border: 1px solid black;
+        background-color: #999999;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 55px;
+        padding-left: 10px;
+        font-family: Comic Sans MS;
+      }
+      div.mmm {
+        text-align: center;
+        font-size: 20px;
+        margin-top: -755px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+        margin-left: 250px;
+        border: 1px solid black;
+        background-color: #ffffff;
+        padding-top: 5px;
+        padding-right: 700px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        width: 35%;
+        font-family: Comic Sans MS;
+      }
+      div.mmmm {
+
+    border: 1px solid black;
+    background-color: #ffffff;
+    width: 5%;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: -50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 1550px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+ul {
+    list-style-type: none;
+    margin-top: -50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: -25px;
+    
+
+    overflow: hidden;
+   
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+li a.active {
+    color: white;
+    background-color: #000000;
+}
+
+
+      div.s {
+
+    border: 1px solid black;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 350px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    width: 25%;
+    font-size: 25px;
+    /*font-family: Comic Sans MS;*/
+}
+div.ss {
+    border: 1px solid black;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -205px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 600px;
+    width: 25%;
+    font-size: 25px;
+    /*font-family: Comic Sans MS;*/
+}
+div.sss {
+    border: 1px solid black;
+    background-color: #999999;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -205px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 1100px;
+    width: 25%;
+    font-size: 25px;
+    /*font-family: Comic Sans MS;*/
+}
+div.c {
+
+    border: 1px solid black;
+    background-color: #d59898;
+    width: 7%;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -208px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 404px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+div.cc {
+
+    border: 1px solid black;
+    background-color: #c14543;
+    width: 7%;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -39px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 904px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+div.ccc {
+
+    border: 1px solid black;
+    background-color: #e5d198;
+    width: 7%;
+    border: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 1404px;
+    text-align: center;
+    /*font-family: Comic Sans MS;*/
+}
+        body {border :2px solid black 
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="menu">Our Menu</div>
+
+    <div class="s">Lorem ipsum dolor sit amet, consevtetur adipisicing elit, sed do eiusmod tempor incidiunt ut labore et dolore magne aliqua Ut enim ad minim veniam,ali`uip ex ea commodo conswquat.
+    </div>
+
+    <div class="ss">Lorem ipsum dolor sit amet, consevtetur adipisicing elit, sed do eiusmod tempor incidiunt ut labore et dolore magne aliqua Ut enim ad minim veniam,ali`uip ex ea commodo conswquat.
+     
+    </div>
+
+    <div class="sss">Lorem ipsum dolor sit amet, consevtetur adipisicing elit, sed do eiusmod tempor incidiunt ut labore et dolore magne aliqua Ut enim ad minim veniam,ali`uip ex ea commodo conswquat.</div>
+     <div class="c">Chicken</div>
+     <div class="cc">Beef</div>
+     <div class="ccc">Sushi</div>
+     <div class="m">Assignment Solution Module 2</div>
+     <div class="mm"></div>
+     <div class="mmm">http://yourGitHubld.github.io/repo-name/module2-solution/</div>
+     <div class="mmmm">Search</div>
+     <ul>
+  <li><a  href="#Back">Back</a></li>
+  <li><a href="#Next">Next</a></li>
+  <li><a class="active" href="#Home">Home</a></li>
+  <li><a href="#Exit">Exit</a></li>
+</ul>
+
+  </body>
+</html>
